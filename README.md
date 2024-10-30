@@ -1,13 +1,46 @@
-# Llama Visual Instruct Chatbot
+## Key Features
 
-## Project Description
-This project leverages the **Llama 3.2-11B Vision Instruct** model from Hugging Face to create an intelligent chatbot capable of generating detailed descriptions of images. Users can upload images, and the chatbot will provide insightful descriptions, aimed to be around 300 words, helping users understand the visual content effectively.
+- **Descriptive Language Generation**: Transforms visual input into rich, context-aware descriptions.
 
-## Features
-- Generate detailed image descriptions using the Llama Visual Instruct model.
-- Supports conversational interaction with the chatbot.
-- Easily configurable with a .yml file for API tokens and model IDs.
-- Modular codebase for easy maintenance and extension.
+- **Seamless Chat Integration**: Easily integrates with platforms like Slack, Microsoft Teams, and WhatsApp.
+
+- **Enhanced User Experience**: Provides vivid descriptions for image sharing within chats.
+
+- **Inclusive Communication**: Enables all users to engage meaningfully with visual content.
+
+ 
+
+## Technical Specifications
+
+- **Model**: Llama 3.2-11B, a transformer-based neural network with 11 billion parameters.
+
+- **Dataset**: Trained on a diverse dataset for accuracy and context.
+
+- **Core Functionalities**:
+
+  - **Image-to-Text Conversion**: Generates highly descriptive textual outputs.
+
+  - **Adaptable Instruction Framework**: Offers adjustable levels of detail.
+
+ 
+
+## Integration Capabilities
+
+- **API-Ready**: Easily wrapped into a RESTful API for integration into various applications.
+
+ 
+
+## Future Scope
+
+- **Expanded Bot Platform Integration**: Microsoft Teams, WhatsApp, SharePoint, etc.
+
+- **Image Q&A Functionality**: Interactive Q&A on image details.
+
+- **Multilingual Support**: Descriptions in multiple languages.
+
+- **Personalized Description Depth**: Adjustable detail levels for varied user needs.
+
+- **Accessibility Tool Integration**: Works with screen readers for increased inclusivity.
 
 ## Prerequisites
 - Python 3.8 or higher
@@ -15,6 +48,7 @@ This project leverages the **Llama 3.2-11B Vision Instruct** model from Hugging 
 - Transformers library
 - PIL (Pillow)
 - Hugging Face Hub access token
+- streamlit
 
 ## Installation
 
