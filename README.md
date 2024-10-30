@@ -1,3 +1,11 @@
+# Visual DX
+
+ 
+
+Visual DX is a project leveraging the **Llama 3.2-11B model** to generate detailed, descriptive text from images, making visual content accessible for all users, including those with visual impairments.
+
+ 
+
 ## Key Features
 
 - **Descriptive Language Generation**: Transforms visual input into rich, context-aware descriptions.
